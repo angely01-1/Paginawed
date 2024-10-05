@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa para Hombre - Almacén Sion</title>
+    <style>
+        body {
+            font-family: Bell MT, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+        }
+        .menu {
+            background-color: #000000;
+            padding: 20px;
+            width: 200px;
+            box-sizing: border-box;
+        }
+        .menu a {
+            display: block;
+            color: #000000;
+            text-decoration: none;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fffafa;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid #000000;
+        }
+        .menu a:hover {
+            background-color: #691e02;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .titulo {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .producto {
+            flex: 1 1 calc(32% - 20px);
+            background-color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        h3 {
+            margin-top: 0;
+        }
+        .imagenes {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .tabla-tallas {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .tabla-tallas th,
+        .tabla-tallas td {
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #ffffff;
+        }
+        .tabla-tallas th {
+            background-color: #8B0000;
+        }
+        .tabla-tallas td {
+            background-color: #000;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #000;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="mujer.html">Mujer</a>
+        </div>
+        <div class="content">
+            <div class="titulo">
+                <h2>Ropa para Hombre</h2>
+            </div>
+            <div class="productos">
+                <!-- Productos para hombre -->
+                <div class="producto">
+                    <h3>Chaqueta beisbolera hombre</h3>
+                    <div class="imagenes">
+                        <img src="chaqueta-hombre-1.jpg" alt="Chaqueta beisbolera hombre Imagen 1" style="width: 100%;">
+                        
+                    </div>
+                    <table class="tabla-tallas">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Tallas disponibles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S</td>
+                                <td>M</td>
+                                <td>L</td>
+                                <td>XL</td>
+                                <td>XXL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <select>
+                        <option value="negro">Azul oscuro</option>
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="rosado">Rosado</option>
+                        <option value="morado">Morado</option>
+                    </select>
+                </div>
+                <div class="producto">
+                    <h3>Camisetas</h3>
+                    <div class="imagenes">
+                        <img src="camiseta-1.jpg" alt="Camisetas Imagen 1" style="width: 100%;">
+                    </div>
+                    <table class="tabla-tallas">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Tallas disponibles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S</td>
+                                <td>M</td>
+                                <td>L</td>
+                                <td>XL</td>
+                                <td>XXL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <select>
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="rosado">Rosado</option>
+                        <option value="morado">Morado</option>
+                    </select>
+                </div>
+
+                <div class="producto">
+                    <h3>Jean Hombre</h3>
+                    <div class="imagenes">
+                        <img src="jean-hombre-1.jpg" alt="Jean Hombre Imagen 1" style="width: 92%;">
+                    </div>
+                    <table class="tabla-tallas">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Tallas disponibles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S</td>
+                                <td>M</td>
+                                <td>L</td>
+                                <td>XL</td>
+                                <td>XXL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <select>
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="rosado">Rosado</option>
+                        <option value="morado">Morado</option>
+                    </select>
+                </div>
+
+                <div class="producto">
+                    <h3>Correas en cuero</h3>
+                    <div class="imagenes">
+                        <img src="correas-cuero-1.jpg" alt="Correas en cuero Imagen 1" style="width: 30%;">
+                        <img src="correas-cuero-2.jpg" alt="Correas en cuero Imagen 1" style="width: 30%;">
+                        <img src="correas-cuero-3.jpg" alt="Correas en cuero Imagen 1" style="width: 30%;">
+                        
+                    </div>
+                    <table class="tabla-tallas">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Tallas disponibles</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Unica</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                    <select>
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Cafe</option>
+                        <option value="rosado">Azul oscuro</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
